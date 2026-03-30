@@ -25,4 +25,14 @@ int main(){
     }
     cout<<"Bilangan acak while yang terakhir = "<<x <<endl;
     cout<<endl;
+
+    //Perulangan dengan DO. . .WHILE
+    cout<<"PERULANGAN DO. . .WHILE = "<<x <<endl;
+    x = 1 + rand()%10;
+    do{
+        cout<<"Bilangan acak = "<<x <<endl;
+    }while(x<=5);
+
+    cout<<"Bilangan acak do-while yang terakhir = "<<x <<endl;
+    cout<<endl;
 }
